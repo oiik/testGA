@@ -10,3 +10,7 @@ jobs:
     steps:
       - name: Run sleep 5 sec
         run: sleep 5
+      - name: Close another step
+        uses: styfle/cancel-workflow-action
+        with:
+          workflow_id: "Step 2"
