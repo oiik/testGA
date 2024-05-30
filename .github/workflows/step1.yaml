@@ -1,0 +1,12 @@
+name: "Step 1"
+
+on:
+  workflow_call:
+
+jobs:
+  sleep:
+    name: "sleep 10 sec"
+    runs-on: alpine:latest
+    steps:
+      - name: Run sleep 10 sec
+        run: sleep 10

@@ -1,0 +1,13 @@
+name: "Test"
+
+on:
+  workflow_call:
+
+jobs:
+  step1:
+    name: "step1"
+    uses: oiik/testGA/.github/workflows/step1.yaml@master
+
+  step2:
+    name: "step2"
+    uses: oiik/testGA/.github/workflows/step2.yaml@master

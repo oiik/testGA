@@ -1,0 +1,9 @@
+name: "Test closing step"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  imported-workflow:
+    uses: oiik/testGA/.github/workflows/test.yaml@master
+
