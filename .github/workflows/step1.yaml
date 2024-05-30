@@ -13,4 +13,4 @@ jobs:
 
       - uses: styfle/cancel-workflow-action@0.12.1
         with:
-          workflow_id: "step2"
+          workflow_id: "oiik/testGA/.github/workflows/step2.yaml@refs/heads/main"
