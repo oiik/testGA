@@ -4,17 +4,10 @@ on:
   workflow_call:
 
 jobs:
-  step0:
-    name: "test"
-    steps:
-      - name: "test"
-        run: echo "123"
   step1:
     name: "step1"
-    needs: [step0]
     uses: oiik/testGA/.github/workflows/step1.yaml@main
 
   step2:
     name: "step2"
-    needs: [step0]
     uses: oiik/testGA/.github/workflows/step2.yaml@main
