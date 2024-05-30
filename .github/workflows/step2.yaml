@@ -10,3 +10,7 @@ jobs:
     steps:
       - name: Run sleep 20 sec
         run: sleep 20
+      - name: eho
+        run: echo "$GITHUB_WORKFLOW"
+      - name: eho
+        run: echo "$GITHUB_WORKFLOW_REF"
