@@ -5,8 +5,8 @@ on:
 
 jobs:
   sleep:
-    name: "sleep 10 sec"
-    runs-on: alpine:latest
+    name: "sleep 5 sec"
+    runs-on: ubuntu-latest
     steps:
-      - name: Run sleep 10 sec
-        run: sleep 10
+      - name: Run sleep 5 sec
+        run: sleep 5

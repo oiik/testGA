@@ -6,7 +6,7 @@ on:
 jobs:
   sleep:
     name: "sleep 20 sec"
-    runs-on: alpine:latest
+    runs-on: ubuntu-latest
     steps:
       - name: Run sleep 20 sec
         run: sleep 20
